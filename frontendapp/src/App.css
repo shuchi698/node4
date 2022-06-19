@@ -1,0 +1,51 @@
+.container {
+  width: 50%;
+  background-color: bisque;
+  border-radius: 3px;
+  text-align: left;
+  padding: 40px;
+  margin: 20px auto;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input, button {
+  font-size: 1.2rem;
+  line-height: inherit;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  cursor: pointer;
+  background-color: cyan;
+}
+
+
+/* Header */
+
+.header-comp {
+  display: flex;
+  justify-content: space-around;
+  font-size: 32px;
+  margin: 20px 0 40px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px 0 15px;
+}
+
+.header-comp a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-comp a:active {
+  border-bottom: orangered;
+  color: orangered;
+}
